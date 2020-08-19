@@ -74,7 +74,7 @@ const { getData } = require("country-list");export default {
     extend(config, ctx) {}
   },
   env: {
-    apiKey: process.env.API_KEY || "7435c9989c9343e1af4a24b2ee7ad4c1"
+    apiKey: process.env.API_KEY || ""
   },
   router: {
     routes: [
