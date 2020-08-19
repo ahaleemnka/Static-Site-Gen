@@ -57,7 +57,8 @@ const { getData } = require("country-list");export default {
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
     "@nuxtjs/axios",
-    "@nuxtjs/dotenv"
+    "@nuxtjs/dotenv",
+    ['@nuxt/press', 'common']
   ],
   /*
    ** Axios module configuration
@@ -74,7 +75,7 @@ const { getData } = require("country-list");export default {
     extend(config, ctx) {}
   },
   env: {
-    apiKey: process.env.API_KEY || ""
+    apiKey: process.env.API_KEY = ""
   },
   router: {
     routes: [
