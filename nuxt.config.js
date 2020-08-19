@@ -56,10 +56,8 @@ const { getData } = require("country-list");export default {
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    "@nuxtjs/axios",
-    "@nuxtjs/dotenv",
-    ['@nuxt/press', 'common']
-  ],
+    "@nuxtjs/dotenv"
+    ],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options

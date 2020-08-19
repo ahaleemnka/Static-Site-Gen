@@ -12,6 +12,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "axios": "^0.19.2",
     "country-list": "^2.2.0",
+    "mixins": "0.0.1",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {}
